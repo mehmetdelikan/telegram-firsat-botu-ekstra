@@ -1,4 +1,6 @@
-app = "telegram-firsat-botu"
+# Bu dosya, Fly.io'ya uygulamanın nasıl kurulacağını söyler.
+# Herhangi bir app adı belirtmiyoruz, bunu arayüzde seçeceğiz.
 
 [build]
+  # Fly.io'ya bir Dockerfile kullanarak kurulum yapmasını söylüyoruz.
   dockerfile = "Dockerfile"
