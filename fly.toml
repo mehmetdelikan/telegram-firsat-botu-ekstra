@@ -1,10 +1,4 @@
 app = "telegram-firsat-botu"
 
 [build]
-dockerfile = "Dockerfile"
-
-[env]
-API_ID = "..."
-API_HASH = "..."
-NTFY_TOPIC = "..."
-SESSION_STRING = "..."
+  dockerfile = "Dockerfile"
