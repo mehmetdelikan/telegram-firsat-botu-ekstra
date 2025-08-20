@@ -27,7 +27,7 @@ try:
     
     client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
     
-    TARGET_CHANNEL = 'onual_firsat'
+    TARGET_CHANNEL = 'onual_ekstra'
     KEYWORDS = [
         "son 6 ayın en düşük fiyatı",
         "son 1 yılın en düşük fiyatı"
@@ -41,7 +41,7 @@ try:
             content = f"{text_content}\n\nLink: {message_link}"
             
             headers = {
-                "Title": "Yeni Firsat Yakalandi!",
+                "Title": "Ekstra Firsat Yakalandi!",
                 "Tags": "tada",
                 "Click": message_link,
                 "Priority": "high"
@@ -74,3 +74,4 @@ except Exception as e:
     print(f"KRİTİK HATA: Program başlatılamadı.", file=sys.stderr)
     traceback.print_exc(file=sys.stderr)
     sys.exit(1)
+
